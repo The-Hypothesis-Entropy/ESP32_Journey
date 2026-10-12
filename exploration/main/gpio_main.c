@@ -44,7 +44,7 @@ void app_main_input(void *arg){
 }
 
 
-void btn_isr(void *arg){
+void IRAM_ATTR btn_isr(void *arg){
   press_count++;
   //ESP_LOGI("Interupt", "Button pressed %d times", press_count); DONT YOU DARE!
 } 
