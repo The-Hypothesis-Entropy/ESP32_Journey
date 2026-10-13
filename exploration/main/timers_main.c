@@ -10,13 +10,13 @@ static void on_tick(void *arg)
 
 void app_main(void)
 {
-    esp_timer_handle_t h;
+    esp_timer_handle_t h; //timer handle
 
-    const esp_timer_create_args_t args = {
+    const esp_timer_create_args_t args = { // create args (task structure is default over isr)
         .callback = on_tick,
         .name = "my_timer",
     };
 
-    esp_timer_create(&args, &h);
-    esp_timer_start_periodic(h, 500000);   /* 500 ms, in microseconds */
+    esp_timer_create(&args, &h); //create timer
+    esp_timer_start_periodic(h, 500000);   /*start timer: 500 ms, in microseconds */
 }
