@@ -1,3 +1,10 @@
+/*
+CREATE A UART CONFIG, APPLY IT TO UART1
+SET THE PINS FOR UART1
+INSTALL THE DRIVER FOR UART1
+USE write_bytes and read_bytes
+*/
+
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"

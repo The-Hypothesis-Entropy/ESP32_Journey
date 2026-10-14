@@ -1,3 +1,9 @@
+/*
+INITIALIZE THE I2C BUS
+ADD A DEVICE TO THE BUS
+USE TRANSMIT AND RECEIVE FUNCTIONS TO SEND AND RECEIVE DATA.
+*/
+
 #include "driver/i2c_master.h"
 #include "esp_log.h"
 #include "freertos/FreeRTOS.h"

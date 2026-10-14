@@ -1,3 +1,9 @@
+/*
+INITIALIZE THE SPI BUS
+ADD A DEVICE TO THE BUS
+USE A TRANSACTION TYPE TO SEND AND RECEIVE DATA.
+*/
+
 #include "driver/spi_master.h"
 #include "esp_log.h"
 #include "driver/gpio.h"

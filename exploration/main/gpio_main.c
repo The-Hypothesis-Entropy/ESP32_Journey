@@ -1,3 +1,13 @@
+/*
+RESET PIN, SET PIN DIRECTION
+USE SET_LEVEL AND GET_LEVEL
+
+YOU CAN ALSO USE PULLUP_EN, PULLDOWN_EN
+INSTALL A ISR SERVICE(0); ONLY ONCE!
+ATTACH A ISR HANDLER (qualify handler with IRAM_ATTR)
+START ISR USING SET_INTR_TYPE
+*/
+
 #include "driver/gpio.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"

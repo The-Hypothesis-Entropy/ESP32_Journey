@@ -1,3 +1,8 @@
+/*
+CREATE TIMER HANDLE TYPE, CREATE ARGUMENT TYPE; CREATE THE TIMER
+START THE TIMER
+*/
+
 #include "esp_timer.h"
 #include "esp_log.h"
 
